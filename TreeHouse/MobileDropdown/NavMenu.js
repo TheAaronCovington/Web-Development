@@ -1,6 +1,7 @@
 /*
   DESCRIPTION: This is just an example of a simple drop down menu for a mobile device that I worked
-  through in a TreeHouse course.
+  through in a TreeHouse course.  Didn't bother saving all the html files since this is just a code
+  example.
 */
 //create a select and append to menu
 var $select = $("<select></select>");
