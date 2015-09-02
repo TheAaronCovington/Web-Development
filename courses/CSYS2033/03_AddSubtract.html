@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number Methods</title>
+    <meta name="viewport" content="width=device-width">
+        <script type="text/javascript">
+            var Number = function(value){
+                this.value = value;
+                
+                this.add = function(num){
+                    return this.value + num;
+                };
+                this.subtract = function(num){
+                    return this.value - num;
+                };
+                return this.value;
+            };
+        </script>
+  </head>
+  <body>
+        <h1>Number Methods</h1>
+        <script type="text/javascript">
+            var num1 = new Number( 3 );
+            var num2 = new Number( 9 );
+
+            // should output "num1 is: 3<br/>"
+            document.writeln( "num1 is: " + num1.value + "<br/>" );
+
+            // should output "num2 is: 9<br/>"
+            document.writeln( "num2 is: " + num2.value + "<br/>" );
+
+            // should output "num1 + num2 is: 12<br/>"
+            document.writeln( "num1 + num2 is: " + num1.add( num2.value ) + "<br/>" );
+
+            // should output "num2 - num1 is: 6<br/>"
+            document.writeln( "num2 - num1 is: " + num2.subtract( num1.value ) + "<br/>" );
+        </script>
+  </body>
+</html>
