@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Rectangle Width Calculator</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var width = prompt("Please enter width");
+			var height = prompt("Please enter height");
+			if(width === "" || height === ""){
+				document.writeln("Please enter a valid number");
+			}
+			else if(width === null || height === null){
+				document.writeln("Request Cancelled");
+			}
+			else{
+				document.writeln("The area is: " + (width * height).toString());
+			}
+		</script>
+	</body>
+</html>
